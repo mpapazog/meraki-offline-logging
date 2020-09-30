@@ -2,7 +2,7 @@
 Node.js/MongoDB project that logs information from the Meraki dashboard into a database.
 
 # Project overview
-Compliance reasons or archiving strategies might require exporting data from dashboard into an external database. This project is an example of how to do that using Node,js and MongoDB. The project currently logs networks clients and their traffic history only.
+Compliance reasons or archiving strategies might require exporting data from dashboard into an external database. This project is an example of how to do that using Node.js and MongoDB. The project currently logs networks clients and their traffic history only.
 
 # Installation and startup
 * Install Node.js: https://nodejs.org/en/
