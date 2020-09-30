@@ -33,14 +33,14 @@ this.databaseHostAddress            = "127.0.0.1";
 this.databaseHostPort               = "27017";
 this.databaseDbName                 = "meraki";
 ```
-* Replace the contents of the variables to match your environment
+* Replace the contents of variables **apiKey** and **organizationId** to match your environment. If you have installed Node.js and MongoDB on separate servers, you will need to modify **databaseHostAddress** as well
 * In the installation directory, run the following commands:
 ```
 npm install
 node server.js
 ```
-* The server will run and scan your organization with the frequency defined in variable **Config.scanIntervalMinutes**. The default value is 60  minutes. If you want to quickly verify how subsequent scans will affect the database, you can lower this to 1 minute
-* To include a network in the scan process, either tag it in the Meraki dashboard with the label defined in **Config.logNetworksWithTag**, or set **Config.logEveryNetwork** to **true**
+* The server will run and scan your organization with the frequency defined in Config variable **scanIntervalMinutes**. The default value is 60  minutes. If you want to quickly verify how subsequent scans will affect the database, you can lower this to 1 minute
+* To include a network in the scan process, either tag it in the Meraki dashboard with the label defined in Config variable **logNetworksWithTag**, or set **logEveryNetwork** to **true**
 * Use the MongoDBCompass tool that came with MongoDB to view the contents of your database
 
 # Known issues
