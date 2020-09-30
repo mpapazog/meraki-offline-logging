@@ -7,7 +7,7 @@ Compliance reasons or archiving strategies might require exporting data from das
 # Installation and startup
 * Install Node.js: https://nodejs.org/en/
 * Install MongoDB. You can get the community version of MongoDB here: https://www.mongodb.com/try/download/community
-* Install the MongoDB Compass tool for viewing the contents of your database. If you selected not to install it on your MongoDB server, you can get it here: https://www.mongodb.com/products/compass
+* Install the MongoDB Compass tool for viewing the contents of your database. The Community Edition is enough for the needs of this project. If you selected not to install it on your MongoDB server, you can get it here: https://www.mongodb.com/products/compass
 * Copy the contents or this repository to your server
 * Edit file **/models/Config.js**
 * Find the following text:
