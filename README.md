@@ -39,7 +39,8 @@ this.databaseDbName                 = "meraki";
 npm install
 node server.js
 ```
-* The server will run and scan your organization with the frequency defined in variable Config.scanIntervalMinutes. The default value is 60  minutes. If you want to quickly verify how subsequent scans will affect the database, you can lower this to 1 minute
+* The server will run and scan your organization with the frequency defined in variable **Config.scanIntervalMinutes**. The default value is 60  minutes. If you want to quickly verify how subsequent scans will affect the database, you can lower this to 1 minute
+* To include a network in the scan process, either tag it in the Meraki dashboard with the label defined in **Config.logNetworksWithTag**, or set **Config.logEveryNetwork** to **true**
 * Use the MongoDBCompass tool that came with MongoDB to view the contents of your database
 
 # Useful links
