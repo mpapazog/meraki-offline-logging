@@ -34,7 +34,7 @@ this.databaseHostPort               = "27017";
 this.databaseDbName                 = "meraki";
 ```
 * Replace the contents of variables **apiKey** and **organizationId** to match your environment. If you have installed Node.js and MongoDB on separate servers, you will need to modify **databaseHostAddress** as well
-* In the installation directory, run the following commands:
+* In the project directory (the one where server.js is), run the following commands:
 ```
 npm install
 node server.js
