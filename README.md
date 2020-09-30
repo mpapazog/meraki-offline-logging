@@ -43,5 +43,8 @@ node server.js
 * To include a network in the scan process, either tag it in the Meraki dashboard with the label defined in **Config.logNetworksWithTag**, or set **Config.logEveryNetwork** to **true**
 * Use the MongoDBCompass tool that came with MongoDB to view the contents of your database
 
+# Known issues
+The code does not handle "Retry-after" headers returned by the Meraki Dashboard API request limiter or paginated reponses properly yet. These will be fixed at a later time.
+
 # Useful links
 The official Meraki API developer page: https://developer.cisco.com/meraki
